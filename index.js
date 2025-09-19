@@ -1,7 +1,8 @@
 import express from "express"
 import dotenv from "dotenv"
 import cors from "cors"
-import DBConnection from "./App/config/DbConnection.js"
+import DBConnection from "./src/config/DbConnection.js"
+
 
 const app=express()
 dotenv.config()
